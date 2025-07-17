@@ -1,0 +1,24 @@
+title: AI Learning Assistant
+emoji: 🤖
+sdk: streamlit
+app_file: app.py
+pinned: true
+license: mit
+tags:
+  - AI
+  - Cisco
+  - Education
+  - Learning Assistant
+  - Networking
+  - Ethical Hacking
+  - CCNA
+  - Security
+
+dependencies:
+  - streamlit==1.17.0
+  - requests==2.26.0
+  - beautifulsoup4==4.10.0
+  - langchain==0.10.0
+  - openai==0.26.0
+  - chromadb==0.3.0
+  - faiss-cpu==1.7.2
