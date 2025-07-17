@@ -1,4 +1,4 @@
-# Cisco AI Learning Assistant 🧠
+# The Cisco Learning Portal – an AI-powered Learning Assistant 🧠
 
 This is a Streamlit-based AI app that integrates learning content from:
 
