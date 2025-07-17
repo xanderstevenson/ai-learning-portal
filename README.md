@@ -6,7 +6,7 @@ This is a Streamlit-based AI app that integrates learning content from:
 - Cisco Networking Academy (NetAcad)
 - Cisco Learning Network (CLN)
 
-## 🏁 Getting Started
+### 🏁 Getting Started
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/ai-learning-portal.git
@@ -25,23 +25,21 @@ streamlit run app.py
 - `Create Space`
 
 
-### Mirror HF Repo from GitHub via Git Remotes
+### Clone your HuggingFace repo and add the requiredfiles 
 
-- Clone your GitHub repo and push it to the Hugging Face Space:
+Use an access token as git password/credential
 
+
+When prompted for a password, use an access token with write permissions
+Generate one from your settings: https://huggingface.co/settings/tokens
 ```
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-```
-
-- Add the HF Space repo as a remote:
-
-```
-git remote add hf https://huggingface.co/spaces/alexstev/cisco-learning-portal
+git clone https://huggingface.co/spaces/alexstev/cisco-learning-portal
 ```
 
-- Push your GitHub code to the HF Space:
+Make sure huggingface-cli is installed: pip install -U "huggingface_hub[cli]"
+```
+huggingface-cli download alexstev/cisco-learning-portal --repo-type=space
+```
 
-```
-git push hf main
-```
+
+
