@@ -1,8 +1,8 @@
 import streamlit as st
 from search_agent import get_recommendations
 
-st.set_page_config(page_title="The Learning Portal", layout="centered")
-st.title("🤖 Cisco AI Learning Assistant")
+st.set_page_config(page_title="The Cisco Learning Portal", layout="centered")
+st.title("🤖 AI Learning Assistant")
 
 query = st.text_input("What do you want to learn?", placeholder="e.g., ethical hacking, CCNA, data center networking")
 
